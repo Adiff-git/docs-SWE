@@ -6,8 +6,7 @@
 **Version:** Review draft, 28 October 2026  
 **Scope:** Seven assigned sections only; not the complete team Vision Document  
 **Primary writer / Performed by:** Lê Đức Thịnh  
-**Section reviewer:** Trịnh Văn Thành (**review pending**)  
-**Main document reviewer:** Phan Thị Thanh Huyền (**review pending**)  
+ 
 **Source of scope:** Team's PA1 Project Proposal and PA2 Week 1 Work Plan; AI-SWE architecture and API-contract documents.
 
 > **Review note.** This document is written as **proposed product requirements**, not as a statement that AI features are already implemented. As of the review baseline, the AI repository provides FastAPI endpoints and placeholders, but no live LLM, product-retrieval tool, persistent chat sessions, or automated shopping action. Quantitative quality criteria in Section 6 are **proposed acceptance targets** to be agreed upon with the team, not measured results. Retain the seven sections below when merging them into `Vision_Document.md`; the sections assigned to Thành should remain under his ownership.
@@ -69,7 +68,7 @@ Online electronics shopping presents two related problems. Customers must unders
 
 **Jira:** SWE-87  
 **Performed by:** Lê Đức Thịnh  
-**Reviewed by:** Trịnh Văn Thành (pending)  
+**Reviewed by:** Nguyễn Hoàng Gia (pending)  
 **Edited by:** Lê Đức Thịnh (initial draft; further edits pending review)
 
 The product is a web-based application for an electronics retailer. It combines a **customer storefront** and an **administrator interface** with a centralized Backend and a separately deployed AI service. The system is expected to operate in modern desktop browsers such as Chrome and Firefox on Windows and Linux, with an internet connection. The initial coursework implementation should prioritize functioning core journeys before more advanced recommendation and automation features.
@@ -99,7 +98,7 @@ The product is a web-based application for an electronics retailer. It combines 
 
 **Jira:** SWE-88  
 **Performed by:** Lê Đức Thịnh  
-**Reviewed by:** Trịnh Văn Thành (pending)  
+**Reviewed by:** Nguyễn Công Kiên (pending)  
 **Edited by:** Lê Đức Thịnh (initial draft; further edits pending review)
 
 **Assumptions**
@@ -143,7 +142,7 @@ The product is a web-based application for an electronics retailer. It combines 
 
 **Jira:** SWE-91  
 **Performed by:** Lê Đức Thịnh  
-**Reviewed by:** Trịnh Văn Thành (pending)  
+**Reviewed by:** Nguyễn Hoàng Gia (pending)  
 **Edited by:** Lê Đức Thịnh (initial draft; further edits pending review)
 
 The AI capabilities supplement, rather than replace, the standard e-commerce functions. Features below are **product requirements** and include staged implementation expectations. All references to product prices, attributes, stock, account history, and shopping actions must be grounded in Backend-approved data.
@@ -188,7 +187,7 @@ The system shall support selected customer-requested shopping operations through
 
 **Jira:** SWE-93  
 **Performed by:** Lê Đức Thịnh  
-**Reviewed by:** Trịnh Văn Thành (pending)  
+**Reviewed by:** Nguyễn Hoàng Gia (pending)  
 **Edited by:** Lê Đức Thịnh (initial draft; further edits pending review)
 
 **Scenario.** A customer asks the Shopping Agent for product guidance, product comparison, or a supported shopping operation through the web Chatbox. The workflow distinguishes ordinary information retrieval from actions that modify the customer's data. All calls to account-specific Backend APIs are authorized on the server side.
