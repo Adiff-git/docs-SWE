@@ -323,3 +323,18 @@ Documents use English Markdown, Mermaid diagrams where needed, and PDF for submi
 Do not commit passwords, keys or .env files. Backend controls authentication and business data; AI accesses it through authorized APIs.  
 If a build fails, the team checks logs, fixes or reverts the change, and tests again. Backup details are added when the server setup is finalized.
 
+| Section | Task / Content | Writer | Reviewer |
+| :---- | :---- | :---- | :---- |
+| **1\. Introduction** | Purpose, Scope, Overview | Kiên | Huyền |
+| **2\. Project Overview** | Project Goals, Scope, Deliverables | Kiên | Huyền |
+| **2\. Project Overview** | Assumptions & Constraints | Gia | Thành |
+| **3\. Project Organization** | Team Structure & Roles | Gia | Huyền |
+| **3\. Risk Management** | Project Risks & Mitigation Strategies | Kiên | Gia |
+| **4\. Project Estimates** | Timeline & Resource Estimates | Kiên | Gia |
+| **4\. Scrum Plan** | Sprint Objectives, Tasks & Deliverables | Gia | Kiên |
+| **4\. Project Schedule** | Schedule, Milestones, Due Dates | Gia | Kiên |
+| **4\. Build Plan** | Testing Builds & Release Schedule | Gia | Thành |
+| **4\. Monitoring & Control** | Jira, Git Workflow, Progress Tracking | Gia | Huyền |
+
+### 
+
