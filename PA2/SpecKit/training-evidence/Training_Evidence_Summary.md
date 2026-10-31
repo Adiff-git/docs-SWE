@@ -60,17 +60,29 @@ My main difficulties were understanding the existing Backend data model, maintai
 
 **31 October 2026 — Integration Testing and Deployment Preparation:** Added tests for catalog importing and image handling, validated the local development workflow, and committed the Backend catalog preparation changes. Investigated reducing the dataset to approximately 1,500 diverse products to minimize storage and download requirements. Planned a reproducible setup allowing teammates to clone the repositories, download product images, and import catalog data into their local environments.
 
-**Member Name: Le Duc Thinh**  
-Summary of Spec Kit training:  
+**Member Name: Le Duc Thinh**
+Summary of Spec Kit training:
 During Sprint 2, I studied the fundamentals of Specification-Driven Development (SDD) and how GitHub Spec Kit turns an initial feature description into reviewable engineering artifacts. I learned the purpose of a project constitution, the relationship between requirements and implementation, and the roles of the specify, clarify, plan, tasks, analyze, and implement stages. I also learned that AI-generated specifications may contain assumptions or gaps, so the team needs to inspect and refine each artifact instead of treating it as a final decision.
 
 As the AI team lead and a contributor to the Frontend workstream, I focused on understanding how Spec Kit should be used consistently across the AI, Frontend, and Backend repositories. I worked on the project constitution task (SWE-98) and a cross-repository status consolidation task (SWE-99), using the team conventions and existing artifacts as references. In this process, I practiced mapping a broad development objective into smaller tasks, identifying dependencies between services, and planning branch, Pull Request, and review steps. I used ChatGPT to clarify the workflow and prepare task-specific prompts for an AI coding agent, while keeping the team responsible for reviewing the resulting specifications and code.
 
 The most useful lesson was the difference between generating documents and verifying that they accurately describe the intended system. I found cross-repository consistency and translating high-level AI features into testable requirements especially challenging. For the next iteration, I intend to apply the same workflow to the shopping assistant and AI integration tasks, with explicit acceptance criteria, API contracts, and test evidence. This training strengthened my understanding of how specifications, task tracking, code reviews, and human validation fit together.
 
-Training log (reconstructed from project discussions and task work; exact timestamps should be checked before submission):  
-Late October 2026 — SDD Concepts and Workflow: Reviewed the purpose of Spec Kit and its constitution, specification, planning, task breakdown, analysis, and implementation stages; used AI explanations to clarify how generated artifacts relate to actual development.  
-28–29 October 2026 — Constitution and Repository Conventions: Worked on SWE-98 and reviewed the project's engineering principles, Git workflow, and documentation expectations. Compared the intended Spec Kit structure with the team's AI, Frontend, and Backend repositories.  
-29–30 October 2026 — Cross-Repository Review: Worked on SWE-99 to consolidate the status of Spec Kit-related repositories and identify follow-up work or inconsistencies without assuming all generated artifacts were complete.  
-30–31 October 2026 — Application to AI Tasks: Used the Spec Kit workflow as a guide to break AI foundation and shopping-agent work into reviewable tasks, prepare coding-agent prompts, and plan human verification and Pull Request steps.  
-Evidence to attach (pending verification): A genuine screenshot of the SWE-98/SWE-99 Jira activity; the relevant constitution.md or .specify artifacts from the actual repository; and, if available, one screenshot of a real Spec Kit command output or training session. No screenshot or command execution is claimed here without an attached original record.  
+Training log (reconstructed from project discussions and task work; exact timestamps should be checked before submission):
+Late October 2026 — SDD Concepts and Workflow: Reviewed the purpose of Spec Kit and its constitution, specification, planning, task breakdown, analysis, and implementation stages; used AI explanations to clarify how generated artifacts relate to actual development.
+28–29 October 2026 — Constitution and Repository Conventions: Worked on SWE-98 and reviewed the project's engineering principles, Git workflow, and documentation expectations. Compared the intended Spec Kit structure with the team's AI, Frontend, and Backend repositories.
+29–30 October 2026 — Cross-Repository Review: Worked on SWE-99 to consolidate the status of Spec Kit-related repositories and identify follow-up work or inconsistencies without assuming all generated artifacts were complete.
+30–31 October 2026 — Application to AI Tasks: Used the Spec Kit workflow as a guide to break AI foundation and shopping-agent work into reviewable tasks, prepare coding-agent prompts, and plan human verification and Pull Request steps.
+Evidence to attach (pending verification): A genuine screenshot of the SWE-98/SWE-99 Jira activity; the relevant constitution.md or .specify artifacts from the actual repository; and, if available, one screenshot of a real Spec Kit command output or training session. No screenshot or command execution is claimed here without an attached original record.
+
+**Member Name: Nguyễn Công Kiên**
+
+Summary of Spec Kit Training:
+
+I completed the Microsoft tutorial provided by the instructor and gained a basic understanding of Specification-Driven Development (SDD) and how GitHub Spec Kit supports the software development process. Through the tutorial, I learned how specifications can help developers organize requirements, plan implementation tasks, and maintain consistency throughout development.
+
+I also gained hands-on experience by initializing GitHub Spec Kit in our project's Frontend repository. During this process, I became familiar with the generated project structure, particularly the constitution.md file, which defines the project's engineering principles and development guidelines. I also explored some of the available Spec Kit commands and began understanding how they support different stages of development, from defining requirements to planning and implementation.
+
+As the Frontend lead, I recognized the potential benefits of using Spec Kit to organize frontend development, especially when coordinating shared components, API integration, and coding conventions across team members. However, my practical experience with Spec Kit and SDD is still limited, and I am continuing to learn how to apply the workflow effectively to real development tasks.
+
+Overall, this training helped me understand the importance of defining clear requirements before implementation and provided a foundation for applying a more structured, specification-driven approach to our project.
