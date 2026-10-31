@@ -6,6 +6,27 @@
 
 # **Version 1.3**
 
+| Section | Task / Content | Writer | Reviewer |
+| :---- | :---- | :---- | :---- |
+| **1\. Introduction** | Purpose & References | Thành | Huyền |
+| **2\. Positioning** | Problem Statement | Thịnh | Thành |
+| **2\. Positioning** | Product Position Statement | Thịnh | Thành |
+| **3\. Stakeholders** | Stakeholder Summary | Thành | Huyền |
+| **3\. Stakeholders** | User Summary & User Environment | Thành | Huyền |
+| **3\. Stakeholders** | Key Stakeholder/User Needs | Thành | Kiên |
+| **3\. Stakeholders** | Alternatives & Competition | Thành | Huyền |
+| **4\. Product Overview** | Product Perspective | Thịnh | Gia |
+| **4\. Product Overview** | Assumptions & Dependencies | Thịnh | Kiên |
+| **5\. Product Features** | Customer Features | Thành | Kiên |
+| **5\. Product Features** | Admin Features | Thành | Huyền |
+| **5\. Product Features** | AI Features | Thịnh | Gia |
+| **5\. Workflow Diagrams** | Customer Shopping Workflow | Thành | Kiên |
+| **5\. Workflow Diagrams** | AI Shopping Agent Workflow | Thịnh | Gia |
+| **6\. Non-Functional Requirements** | General System Requirements | Thành | Huyền |
+| **6\. Non-Functional Requirements** | AI Quality Requirements | Thịnh | Thành |
+
+### 
+
 # **Revision History**
 
 | Date | Version | Description | Author |
