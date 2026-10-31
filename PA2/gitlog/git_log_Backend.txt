@@ -1,0 +1,25 @@
+cea9b4b | 2026-10-30 18:11:05 +0700 | Trịnh Văn Thành | Merge pull request #3 from Adiff-git/feature/product-catalog
+793ee03 | 2026-10-30 16:03:31 +0700 | Nguyen Hoang Gia | Add private wishlist catalog seed handoff
+0aebbf8 | 2026-10-29 19:34:07 +0700 | Nguyen Hoang Gia | feat(catalog): enhance product metadata and normalization
+3bd6c3b | 2026-10-29 13:21:53 +0700 | Nguyen Hoang Gia | Complete local product catalog images, seed v2 and publication workflow
+064fd25 | 2026-10-29 01:21:40 +0700 | Nguyen Hoang Gia | feat(catalog): finalize portable frontend seed tooling and delivery guide
+2ee69ad | 2026-10-29 01:20:19 +0700 | Nguyen Hoang Gia | docs(catalog): record reviewed local imports and seed verification
+c109f43 | 2026-10-29 00:09:30 +0700 | Nguyen Hoang Gia | Merge remote-tracking branch 'origin/draft/version-1' into feature/product-catalog
+cf307a3 | 2026-10-28 21:06:32 +0700 | Nguyen Hoang Gia | feat(catalog): add PostgreSQL product data importer
+74bf871 | 2026-10-28 21:06:01 +0700 | TrinhThanh-25 | merge: draft version 1 of catalog, user, auth and shared image storage
+b1c5b27 | 2026-10-28 20:57:34 +0700 | TrinhThanh-25 | refactor(media): align UUID identifiers and URL lifetimes with catalog
+241887f | 2026-10-28 19:09:06 +0700 | Nguyen Hoang Gia | merge: integrate user address auth and media infrastructure
+f1d21cb | 2026-10-28 16:07:11 +0700 | Nguyen Hoang Gia | feat(catalog): add deterministic product data normalizer
+892904a | 2026-10-28 15:19:01 +0700 | Nguyen Hoang Gia | refactor(catalog): remove delegated product image upload code
+62980e0 | 2026-10-28 01:34:19 +0700 | Nguyen Hoang Gia | feat(catalog): implement public product catalog backend
+c7b4cca | 2026-10-27 21:34:31 +0700 | TrinhThanh-25 | feat(media): add image storage and avatar references with open CORS
+aab617e | 2026-10-26 21:29:43 +0700 | TrinhThanh-25 | feat(auth): implement JWT authentication and session lifecycle
+9f94726 | 2026-10-26 13:39:04 +0700 | TrinhThanh-25 | feat(user): add core profiles and address management
+617662d | 2026-10-26 13:09:58 +0700 | Trịnh Văn Thành | Merge pull request #2 from Adiff-git/feature/initial-project-setup
+6785f7c | 2026-10-25 00:14:05 +0700 | TrinhThanh-25 | fix(test): use PostgreSQL Testcontainers for context test
+d4dc3fa | 2026-10-24 23:51:34 +0700 | TrinhThanh-25 | fix: test action
+64d2239 | 2026-10-24 23:44:51 +0700 | TrinhThanh-25 | chore: add initial project setup and backend constitution
+7495498 | 2026-10-17 14:34:32 +0700 | Nguyen Hoang Gia | Merge pull request #1 from Adiff-git/feature/initial-project-setup
+5006701 | 2026-10-12 10:04:22 +0700 | TrinhThanh-25 | doc: add database erd design
+81299b4 | 2026-10-04 16:17:52 +0700 | TrinhThanh-25 | chore: initialize Spring Boot Maven project
+c3ced68 | 2026-10-02 17:12:29 +0700 | Nguyen Hoang Gia | Initial commit
