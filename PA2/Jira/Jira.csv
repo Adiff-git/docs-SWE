@@ -1,0 +1,82 @@
+	Issue key	Issue id	Summary	Assignee	Reporter	Status	Created	Updated
+Task	SWE-119	10118	[FE] Define user flow spec	Huyen	Kiên Nguyễn C	Review	10/27/2026 14:25	10/28/2026 0:16
+Task	SWE-118	10117	[FE] Review API contract (Authentication)	Huyen	Kiên Nguyễn C	In Progress	10/27/2026 14:23	10/28/2026 13:29
+Task	SWE-117	10116	[FE] Signup UI design	Huyen	Kiên Nguyễn C	Done	10/27/2026 14:16	10/28/2026 13:36
+Task	SWE-116	10115	[FE] Login UI design	Huyen	Kiên Nguyễn C	Done	10/27/2026 14:16	10/28/2026 13:36
+Subtask	SWE-115	10114	UI Design	Huyen	Kiên Nguyễn C	To Do	10/27/2026 13:04	10/27/2026 13:04
+Task	SWE-114	10113	[BE] Remote Data Import	Gia Gia	Gia Gia	Review	10/26/2026 16:12	10/29/2026 13:32
+Task	SWE-113	10112	[BE] Local Data Setup	Gia Gia	Gia Gia	Review	10/26/2026 16:12	10/30/2026 0:09
+Task	SWE-112	10111	[PA2 - Spec Kit] Verify Spec Kit Artifacts under /src (Frontend)	Kiên Nguyễn C	Gia Gia	Review	10/26/2026 16:09	10/31/2026 8:08
+Task	SWE-111	10110	[PA2 - Spec Kit] Verify Spec Kit Artifacts under /src (Backend)	tvt8421	Gia Gia	Done	10/26/2026 16:09	10/31/2026 1:17
+Task	SWE-110	10109	[PA2 - Spec Kit] Initialize Spec Kit in Frontend GitHub Repository	Kiên Nguyễn C	Gia Gia	Review	10/26/2026 16:09	10/28/2026 20:05
+Task	SWE-109	10108	[PA2 - Spec Kit] Initialize Spec Kit in Backend GitHub Repository	tvt8421	Gia Gia	Done	10/26/2026 16:09	10/31/2026 1:16
+Task	SWE-108	10107	[PA2 - Reports] Verify Weekly Report	Huyen	Gia Gia	Review	10/26/2026 2:30	10/28/2026 23:50
+Task	SWE-107	10106	[PA2 - Reports] Collect Jira Screenshots	Huyen	Gia Gia	In Progress	10/26/2026 2:30	10/28/2026 20:05
+Task	SWE-106	10105	[PA2 - Reports] Prepare Sprint Review Report	Kiên Nguyễn C	Gia Gia	In Progress	10/26/2026 2:30	10/31/2026 8:08
+Task	SWE-105	10104	[PA2 - Reports] Document Scrum Meetings	Kiên Nguyễn C	Gia Gia	In Progress	10/26/2026 2:30	10/29/2026 11:44
+Task	SWE-104	10103	[PA2 - Reports] Prepare Sprint Planning Report	Kiên Nguyễn C	Gia Gia	Review	10/26/2026 2:30	10/29/2026 13:35
+Task	SWE-103	10102	[PA2 - Reports] Prepare AI Usage Report	Huyen	Gia Gia	In Progress	10/26/2026 2:30	10/28/2026 13:36
+Task	SWE-102	10101	[PA2 - Reports] Collect AI Usage Logs	Huyen	Gia Gia	In Progress	10/26/2026 2:30	10/28/2026 20:05
+Task	SWE-101	10100	[PA2 - Spec Kit] Verify Final Spec Kit Deliverables	Huyen	Gia Gia	In Progress	10/26/2026 2:30	10/28/2026 13:36
+Task	SWE-100	10099	[PA2 - Spec Kit] Consolidate Spec Kit Training Evidence	Lê Đức T	Gia Gia	In Progress	10/26/2026 2:30	10/29/2026 22:22
+Task	SWE-99	10098	[PA2 - Spec Kit] Collect Generated Markdown Files from All Repositories	Lê Đức T	Gia Gia	Review	10/26/2026 2:30	10/30/2026 22:23
+Task	SWE-98	10097	[PA2 - Spec Kit] Prepare Project Constitution	Lê Đức T	Gia Gia	Review	10/26/2026 2:30	10/29/2026 22:22
+Task	SWE-97	10096	[PA2 - Spec Kit] Verify Spec Kit Artifacts under /src (AI)	Gia Gia	Gia Gia	Review	10/26/2026 2:30	10/31/2026 0:08
+Task	SWE-96	10095	[PA2 - Spec Kit] Initialize Spec Kit in AI GitHub Repository	Gia Gia	Gia Gia	Review	10/26/2026 2:30	10/28/2026 20:05
+Task	SWE-95	10094	[PA2 - Vision] AI Quality Requirements	Lê Đức T	Gia Gia	Review	10/26/2026 2:30	10/29/2026 22:22
+Task	SWE-94	10093	[PA2 - Vision] General System Requirements	tvt8421	Gia Gia	Done	10/26/2026 2:30	10/31/2026 1:17
+Task	SWE-93	10092	[PA2 - Vision] AI Shopping Agent Workflow	Lê Đức T	Gia Gia	Review	10/26/2026 2:30	10/29/2026 22:22
+Task	SWE-92	10091	[PA2 - Vision] Customer Shopping Workflow	tvt8421	Gia Gia	To Do	10/26/2026 2:29	10/28/2026 20:05
+Task	SWE-91	10090	[PA2 - Vision] AI Features	Lê Đức T	Gia Gia	Review	10/26/2026 2:29	10/29/2026 22:22
+Task	SWE-90	10089	[PA2 - Vision] Admin Features	tvt8421	Gia Gia	Done	10/26/2026 2:29	10/31/2026 1:16
+Task	SWE-89	10088	[PA2 - Vision] Customer Features	tvt8421	Gia Gia	Done	10/26/2026 2:29	10/31/2026 1:16
+Task	SWE-88	10087	[PA2 - Vision] Assumptions & Dependencies	Lê Đức T	Gia Gia	Review	10/26/2026 2:29	10/29/2026 22:21
+Task	SWE-87	10086	[PA2 - Vision] Product Perspective	Lê Đức T	Gia Gia	Review	10/26/2026 2:29	10/29/2026 22:21
+Task	SWE-86	10085	[PA2 - Vision] Alternatives & Competition	tvt8421	Gia Gia	Done	10/26/2026 2:29	10/31/2026 1:16
+Task	SWE-85	10084	[PA2 - Vision] Key Stakeholder/User Needs	tvt8421	Gia Gia	Done	10/26/2026 2:29	10/31/2026 1:16
+Task	SWE-84	10083	[PA2 - Vision] User Summary & User Environment	tvt8421	Gia Gia	Done	10/26/2026 2:29	10/31/2026 1:16
+Task	SWE-83	10082	[PA2 - Vision] Stakeholder Summary	tvt8421	Gia Gia	Done	10/26/2026 2:29	10/31/2026 1:16
+Task	SWE-82	10081	[PA2 - Vision] Product Position Statement	Lê Đức T	Gia Gia	Review	10/26/2026 2:29	10/29/2026 22:21
+Task	SWE-81	10080	[PA2 - Vision] Problem Statement	Lê Đức T	Gia Gia	Review	10/26/2026 2:29	10/29/2026 22:21
+Task	SWE-80	10079	[PA2 - Vision] Purpose & References	tvt8421	Gia Gia	Done	10/26/2026 2:29	10/31/2026 1:16
+Task	SWE-79	10078	"[PA2 - Project Plan] Jira, Git Workflow, Progress Tracking"	Gia Gia	Gia Gia	Review	10/26/2026 2:29	10/31/2026 0:08
+Task	SWE-78	10077	[PA2 - Project Plan] Testing Builds & Release Schedule	Gia Gia	Gia Gia	Review	10/26/2026 2:29	10/31/2026 0:08
+Task	SWE-77	10076	"[PA2 - Project Plan] Schedule, Milestones, Due Dates"	Gia Gia	Gia Gia	Review	10/26/2026 2:29	10/28/2026 20:05
+Task	SWE-76	10075	"[PA2 - Project Plan] Sprint Objectives, Tasks & Deliverables"	Gia Gia	Gia Gia	Review	10/26/2026 2:29	10/31/2026 0:08
+Task	SWE-75	10074	[PA2 - Project Plan] Timeline & Resource Estimates	Kiên Nguyễn C	Gia Gia	Review	10/26/2026 2:29	10/29/2026 11:42
+Task	SWE-74	10073	[PA2 - Project Plan] Project Risks & Mitigation Strategies	Kiên Nguyễn C	Gia Gia	Review	10/26/2026 2:29	10/29/2026 0:17
+Task	SWE-73	10072	[PA2 - Project Plan] Team Structure & Roles	Gia Gia	Gia Gia	Review	10/26/2026 2:29	10/28/2026 1:37
+Task	SWE-72	10071	[PA2 - Project Plan] Assumptions & Constraints	Gia Gia	Gia Gia	Review	10/26/2026 2:29	10/31/2026 0:08
+Task	SWE-71	10070	"[PA2 - Project Plan] Project Goals, Scope, Deliverables"	Kiên Nguyễn C	Gia Gia	Review	10/26/2026 2:29	10/28/2026 21:28
+Task	SWE-70	10069	"[PA2 - Project Plan] Purpose, Scope, Overview"	Kiên Nguyễn C	Gia Gia	Review	10/26/2026 2:29	10/27/2026 1:06
+Task	SWE-69	10068	[AI] Backend API Contract	Lê Đức T	Gia Gia	Review	10/26/2026 2:29	10/30/2026 22:23
+Task	SWE-68	10067	[AI] Tool Calling Interfaces	Lê Đức T	Gia Gia	Review	10/26/2026 2:29	10/30/2026 22:23
+Task	SWE-67	10066	[AI] Prompt Structure	Lê Đức T	Gia Gia	Review	10/26/2026 2:29	10/30/2026 22:23
+Task	SWE-66	10065	[AI] Agent Foundation	Lê Đức T	Gia Gia	Review	10/26/2026 2:28	10/30/2026 22:23
+Task	SWE-65	10064	[AI] LLM Integration	Lê Đức T	Gia Gia	Review	10/26/2026 2:28	10/29/2026 22:21
+Task	SWE-64	10063	[AI] Recommendation Baseline	Gia Gia	Gia Gia	In Progress	10/26/2026 2:28	10/31/2026 0:08
+Task	SWE-63	10062	[AI] Recommendation Architecture	Gia Gia	Gia Gia	In Progress	10/26/2026 2:28	10/31/2026 0:08
+Task	SWE-62	10061	[AI] Define Recommendation Data Requirements	Gia Gia	Gia Gia	In Progress	10/26/2026 2:28	10/31/2026 0:08
+Task	SWE-61	10060	[FE] Automatic Assistant UI	Lê Đức T	Gia Gia	In Progress	10/26/2026 2:28	10/29/2026 22:22
+Task	SWE-60	10059	[FE] AI Chatbox UI	Lê Đức T	Gia Gia	In Progress	10/26/2026 2:28	10/29/2026 22:22
+Task	SWE-59	10058	[FE] Shared Components	Lê Đức T	Gia Gia	Done	10/26/2026 2:28	10/29/2026 22:21
+Task	SWE-58	10057	[FE] Design Tokens	Lê Đức T	Gia Gia	Done	10/26/2026 2:28	10/29/2026 22:21
+Task	SWE-57	10056	[FE] Shared Component UI Design	Lê Đức T	Gia Gia	Done	10/26/2026 2:28	10/29/2026 22:21
+Task	SWE-56	10055	[FE] Inventory Management UI	Huyen	Gia Gia	To Do	10/26/2026 2:28	10/26/2026 2:28
+Task	SWE-55	10054	[FE] Product Management UI	Huyen	Gia Gia	To Do	10/26/2026 2:28	10/26/2026 2:28
+Task	SWE-54	10053	[FE] Admin Layout Implementation	Huyen	Gia Gia	To Do	10/26/2026 2:28	10/27/2026 14:17
+Task	SWE-53	10052	[FE] Shared Component Implementation	Huyen	Gia Gia	To Do	10/26/2026 2:28	10/27/2026 14:17
+Task	SWE-52	10051	[FE] Authentication	Kiên Nguyễn C	Gia Gia	To Do	10/26/2026 2:28	10/26/2026 2:28
+Task	SWE-51	10050	[FE] Backend Integration	Kiên Nguyễn C	Gia Gia	To Do	10/26/2026 2:28	10/26/2026 2:28
+Task	SWE-50	10049	[FE] Product Detail UI	Kiên Nguyễn C	Gia Gia	To Do	10/26/2026 2:28	10/26/2026 2:28
+Task	SWE-49	10048	[FE] API Client Layer	Kiên Nguyễn C	Gia Gia	Review	10/26/2026 2:28	10/31/2026 8:08
+Task	SWE-48	10047	[FE] Role-based Access	Kiên Nguyễn C	Gia Gia	To Do	10/26/2026 2:28	10/26/2026 2:28
+Task	SWE-47	10046	[FE] Routing	Kiên Nguyễn C	Gia Gia	Review	10/26/2026 2:28	10/27/2026 0:13
+Task	SWE-46	10045	"[BE] Engagement (Review, Wishlist)"	tvt8421	Gia Gia	Review	10/26/2026 2:28	10/31/2026 1:17
+Task	SWE-45	10044	[BE] Import Script	Gia Gia	Gia Gia	Review	10/26/2026 2:28	10/30/2026 0:04
+Task	SWE-44	10043	[BE] CI/CD Setup and deploy	tvt8421	Gia Gia	Review	10/26/2026 2:28	10/26/2026 18:15
+Task	SWE-43	10042	[BE] Normalize Data	Gia Gia	Gia Gia	Review	10/26/2026 2:28	10/30/2026 0:09
+Task	SWE-42	10041	[BE] Media	tvt8421	Gia Gia	Done	10/26/2026 2:28	10/30/2026 1:15
+Task	SWE-41	10040	[BE] Catalog	Gia Gia	Gia Gia	Review	10/26/2026 2:27	10/29/2026 13:32
+Task	SWE-40	10039	"[BE] User, addresses"	tvt8421	Gia Gia	Done	10/26/2026 2:27	10/30/2026 1:14
+Task	SWE-39	10038	[BE] Authentication	tvt8421	Gia Gia	Done	10/26/2026 2:27	10/30/2026 1:15
