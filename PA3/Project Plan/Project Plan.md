@@ -13,7 +13,7 @@
 | 23 Oct 2026 | 1.0 | Initial draft | Nguyễn Công Kiên |
 | 30 Oct 2026 | 1.5 | Refinement on Project Organization | Nguyễn Hoàng Gia |
 | 31 Oct 2026 | 2.0 | Finalize details and correct typos | Nguyễn Công Kiên |
-| 14 Nov 2026 | 2.1 | PA3 update: project name, PA dates, deliverables, ownership, Sprint 3 plan/tasks, effort units, release checkpoints, and risks; reconcile repository count. | Gia / Kiên — assigned PA3 owners; review pending |
+| 14 Nov 2026 | 2.1 | PA3 update: project name, PA dates, deliverables, ownership, Sprint 3 plan/tasks, effort units, release checkpoints, and risks; reconcile repository count. | Gia / Kiên — assigned PA3 owners; |
 
 # **Table of Contents**
 
@@ -66,7 +66,7 @@
 
 1. ## **Purpose**
 
-*Performed by (assigned): Nguyễn Công Kiên \| Reviewed by: Phan Thị Thanh Huyền   \| Edited by (PA3 revision draft): Gia / Kiên (pending author sign-off)*  
+*Performed by (assigned): Nguyễn Công Kiên \| Reviewed by: Phan Thị Thanh Huyền   \| Edited by (PA3 revision draft): Gia / Kiên*   
 The purpose of this Software Development Plan is to detail all the information needed to plan the development of the product effectively. This includes defining clear scope for the product, setting out reasonable objectives to achieve, and aligning multiple stakeholder visions of said product.
 
  This document benefits not only the project lead \- by providing a basis for planning and monitoring \- but also individual members, by providing more transparency about the process and mitigating risk of misalignment.
@@ -102,7 +102,7 @@ This Software Development Plan describes Chạm Tech’s development lifecycle, 
 
 ### **2.2.1 Assumptions**
 
-*Performed by (assigned): Nguyễn Hoàng Gia \| Reviewed by: Trịnh Văn Thành   \| Edited by (PA3 revision draft): Gia / Kiên (pending author sign-off)*  
+*Performed by (assigned): Nguyễn Hoàng Gia \| Reviewed by: Trịnh Văn Thành   \| Edited by (PA3 revision draft): Gia / Kiên*   
 The following assumptions are used to establish the initial project plan. These assumptions will be reviewed throughout the development process and updated if circumstances change.
 
 | Assumption | Description |
@@ -116,7 +116,7 @@ The following assumptions are used to establish the initial project plan. These 
 
 ### **2.2.2 Constraints**
 
-*Performed by (assigned): Nguyễn Hoàng Gia \| Reviewed by: Trịnh Văn Thành   \| Edited by (PA3 revision draft): Gia / Kiên (pending author sign-off)*  
+*Performed by (assigned): Nguyễn Hoàng Gia \| Reviewed by: Trịnh Văn Thành   \| Edited by (PA3 revision draft): Gia / Kiên*   
 The project must operate within the following academic, resource, technical, and organizational constraints.
 
 | Constraint | Description |
@@ -132,7 +132,7 @@ The project must operate within the following academic, resource, technical, and
 
 ### **2.2.3 Pending Decisions**
 
-*Performed by (assigned): Nguyễn Hoàng Gia \| Reviewed by: Trịnh Văn Thành   \| Edited by (PA3 revision draft): Gia / Kiên (pending author sign-off)*  
+*Performed by (assigned): Nguyễn Hoàng Gia \| Reviewed by: Trịnh Văn Thành   \| Edited by (PA3 revision draft): Gia / Kiên*   
 Some project conditions have not yet been finalized and may affect the assumptions and constraints above.
 
 | ID | Pending Decision | Potential Impact |
@@ -171,7 +171,7 @@ Technical leads coordinate development and review changes in their areas. All me
 
 2. ## **Roles and Responsibilities**
 
-*Performed by (assigned): Nguyễn Hoàng Gia \| Reviewed by: Phan Thị Thanh Huyền   \| Edited by (PA3 revision draft): Gia / Kiên (pending author sign-off)*
+*Performed by (assigned): Nguyễn Hoàng Gia \| Reviewed by: Phan Thị Thanh Huyền   \| Edited by (PA3 revision draft): Gia / Kiên*
 
 | Person | Role | Main responsibilities |
 | :---- | :---- | :---- |
@@ -183,7 +183,7 @@ Technical leads coordinate development and review changes in their areas. All me
 
 ### **3.2.1 PA3 Documentation and Implementation Responsibility Matrix**
 
-*Performed by (assigned): Nguyễn Hoàng Gia / Nguyễn Công Kiên \| Reviewed by: Trịnh Văn Thành   \| Edited by (PA3 revision draft): Gia / Kiên (pending author sign-off)*  
+*Performed by (assigned): Nguyễn Hoàng Gia / Nguyễn Công Kiên \| Reviewed by: Trịnh Văn Thành   \| Edited by (PA3 revision draft): Gia / Kiên*   
 The following assignments reflect the group's PA3 tab; listed reviewers are assignments, not completed review approvals.
 
 | PA3 deliverable | Primary performer(s) | Assigned reviewer(s) |
@@ -206,7 +206,7 @@ Each Jira task should have one primary owner and a different teammate as reviewe
 
 1. ## **Project Estimates**
 
-*Performed by (assigned): Nguyễn Công Kiên / Nguyễn Hoàng Gia \| Reviewed by: Nguyễn Hoàng Gia / Trịnh Văn Thành   \| Edited by (PA3 revision draft): Gia / Kiên (pending author sign-off)*  
+*Performed by (assigned): Nguyễn Công Kiên / Nguyễn Hoàng Gia \| Reviewed by: Nguyễn Hoàng Gia / Trịnh Văn Thành   \| Edited by (PA3 revision draft): Gia / Kiên*   
 Given the course timeline and available resources, the team retains the following estimates:  
 \- Software size: The PA1 proposal identifies 10 functional groups and approximately 33 features. The current PA3 Use-Case Model lists 59 use cases; this count is subject to scope review and should not be interpreted as implemented features.  
 \- Effort: The team consists of 5 members, each allocated approximately 7.5 hours per week for implementation, documentation, testing, and Scrum activities. This equals 37.5 team-hours per week and approximately 75 team-hours per two-week assignment window. Across the 11 scheduled course weeks (03 Oct–12 Dec 2026), the planning capacity is approximately 412.5 team-hours, assuming the same weekly allocation and full participation throughout. This is a planning estimate, not an actual time-tracking result.  
