@@ -12,6 +12,7 @@ Chọn tên tài liệu hoặc định dạng để mở file. Các liên kết 
 | --- | --- |
 | Vision | [PDF](Vision/Vision.pdf) · [Markdown](Vision/Vision.md) |
 | Project Plan | [PDF](Project%20Plan/Project%20Plan.pdf) · [Markdown](Project%20Plan/Project%20Plan.md) |
+| Changes | [PDF](Changes/Changes.pdf) · [Markdown](Changes/Changes.md) |
 | Weekly Reports | [PDF](Reports/WeeklyReports.pdf) · [Markdown](Reports/WeeklyReports.md) |
 | AI Usage Report | [PDF](Reports/AIUsageReport.pdf) · [Markdown](Reports/AIUsageReport.md) |
 | Use-Case Specifications | [Danh sách theo 10 nhóm chức năng](#use-case-specifications) |
@@ -209,6 +210,16 @@ Mỗi dòng dẫn trực tiếp đến bản PDF và Markdown của cùng một 
 ## Toàn bộ cấu trúc PA3
 
 Mở từng phần bên dưới để xem tất cả thư mục và file. Bấm tên thư mục để duyệt hoặc bấm tên file để mở trực tiếp.
+
+<details>
+<summary>Changes — 2 file</summary>
+
+[Mở thư mục Changes](Changes)
+
+- [Changes.md](Changes/Changes.md)
+- [Changes.pdf](Changes/Changes.pdf)
+
+</details>
 
 <details>
 <summary>Demo — 928 file</summary>
