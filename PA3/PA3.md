@@ -31,7 +31,7 @@ Mỗi dòng dẫn trực tiếp đến bản PDF và Markdown của cùng một 
 | --- | ---: |
 | [FG-01 -- Authentication](#fg-01) | 7 |
 | [FG-02 -- Profile Management](#fg-02) | 3 |
-| [FG-03 -- Search And Browse](#fg-03) | 11 |
+| [FG-03 -- Search And Browse](#fg-03) | 9 |
 | [FG-04 -- Shopping Cart](#fg-04) | 1 |
 | [FG-05 -- Checkout & Payment](#fg-05) | 4 |
 | [FG-06 -- Product Management](#fg-06) | 9 |
@@ -82,8 +82,6 @@ Mỗi dòng dẫn trực tiếp đến bản PDF và Markdown của cùng một 
 | UC-017 — View Product Promotions | [PDF](Use-Case%20Specification/FG-03%20--%20Search%20And%20Browse/FG-03%20--%20017%20--%20View%20Product%20Promotions.pdf) · [Markdown](Use-Case%20Specification/FG-03%20--%20Search%20And%20Browse/FG-03%20--%20017%20--%20View%20Product%20Promotions.md) |
 | UC-018 — View Recently Viewed Products | [PDF](Use-Case%20Specification/FG-03%20--%20Search%20And%20Browse/FG-03%20--%20018%20--%20View%20Recently%20Viewed%20Products.pdf) · [Markdown](Use-Case%20Specification/FG-03%20--%20Search%20And%20Browse/FG-03%20--%20018%20--%20View%20Recently%20Viewed%20Products.md) |
 | UC-019 — View Homepage Recommendations | [PDF](Use-Case%20Specification/FG-03%20--%20Search%20And%20Browse/FG-03%20--%20019%20--%20View%20Homepage%20Recommendations.pdf) · [Markdown](Use-Case%20Specification/FG-03%20--%20Search%20And%20Browse/FG-03%20--%20019%20--%20View%20Homepage%20Recommendations.md) |
-| UC-020 — View Personalized Recommendations | [PDF](Use-Case%20Specification/FG-03%20--%20Search%20And%20Browse/FG-03%20--%20020%20--%20View%20Personalized%20Recommendations.pdf) · [Markdown](Use-Case%20Specification/FG-03%20--%20Search%20And%20Browse/FG-03%20--%20020%20--%20View%20Personalized%20Recommendations.md) |
-| UC-021 — Manage Recommendation Preferences | [PDF](Use-Case%20Specification/FG-03%20--%20Search%20And%20Browse/FG-03%20--%20021%20--%20Manage%20Recommendation%20Preferences.pdf) · [Markdown](Use-Case%20Specification/FG-03%20--%20Search%20And%20Browse/FG-03%20--%20021%20--%20Manage%20Recommendation%20Preferences.md) |
 | UC-022 — Manage Wishlist | [PDF](Use-Case%20Specification/FG-03%20--%20Search%20And%20Browse/FG-03%20--%20022%20--%20Manage%20Wishlist.pdf) · [Markdown](Use-Case%20Specification/FG-03%20--%20Search%20And%20Browse/FG-03%20--%20022%20--%20Manage%20Wishlist.md) |
 
 [Về danh sách nhóm chức năng](#use-case-specifications)
@@ -1474,7 +1472,7 @@ Mở từng phần bên dưới để xem tất cả thư mục và file. Bấm 
 </details>
 
 <details>
-<summary>Use-Case Specification — 113 file</summary>
+<summary>Use-Case Specification — 109 file trong mục lục</summary>
 
 [Mở thư mục Use-Case Specification](Use-Case%20Specification)
 
@@ -1517,10 +1515,6 @@ Mở từng phần bên dưới để xem tất cả thư mục và file. Bấm 
   - [FG-03 -- 018 -- View Recently Viewed Products.pdf](Use-Case%20Specification/FG-03%20--%20Search%20And%20Browse/FG-03%20--%20018%20--%20View%20Recently%20Viewed%20Products.pdf)
   - [FG-03 -- 019 -- View Homepage Recommendations.md](Use-Case%20Specification/FG-03%20--%20Search%20And%20Browse/FG-03%20--%20019%20--%20View%20Homepage%20Recommendations.md)
   - [FG-03 -- 019 -- View Homepage Recommendations.pdf](Use-Case%20Specification/FG-03%20--%20Search%20And%20Browse/FG-03%20--%20019%20--%20View%20Homepage%20Recommendations.pdf)
-  - [FG-03 -- 020 -- View Personalized Recommendations.md](Use-Case%20Specification/FG-03%20--%20Search%20And%20Browse/FG-03%20--%20020%20--%20View%20Personalized%20Recommendations.md)
-  - [FG-03 -- 020 -- View Personalized Recommendations.pdf](Use-Case%20Specification/FG-03%20--%20Search%20And%20Browse/FG-03%20--%20020%20--%20View%20Personalized%20Recommendations.pdf)
-  - [FG-03 -- 021 -- Manage Recommendation Preferences.md](Use-Case%20Specification/FG-03%20--%20Search%20And%20Browse/FG-03%20--%20021%20--%20Manage%20Recommendation%20Preferences.md)
-  - [FG-03 -- 021 -- Manage Recommendation Preferences.pdf](Use-Case%20Specification/FG-03%20--%20Search%20And%20Browse/FG-03%20--%20021%20--%20Manage%20Recommendation%20Preferences.pdf)
   - [FG-03 -- 022 -- Manage Wishlist.md](Use-Case%20Specification/FG-03%20--%20Search%20And%20Browse/FG-03%20--%20022%20--%20Manage%20Wishlist.md)
   - [FG-03 -- 022 -- Manage Wishlist.pdf](Use-Case%20Specification/FG-03%20--%20Search%20And%20Browse/FG-03%20--%20022%20--%20Manage%20Wishlist.pdf)
 - [FG-04 -- Shopping Cart/](Use-Case%20Specification/FG-04%20--%20Shopping%20Cart)
