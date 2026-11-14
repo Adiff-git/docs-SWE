@@ -1,0 +1,305 @@
+openapi: 3.1.0
+info:
+  title: Backend Product Catalog
+  version: 0.1.0
+  description: >-
+    Foundational product catalog contract. Public reads include only PUBLISHED products.
+    The implemented GET /api/products search/filter parameters, additive listing fields
+    and capability responses are specified in specs/007-product-search-filter/contracts/openapi.yaml.
+    Image attachment requires a verified ADMIN principal.
+    Signed image URLs are embedded in product responses and are valid for at
+    most five minutes; clients refresh them by requesting the product again.
+servers:
+  - url: /
+tags:
+  - name: Catalog
+  - name: Product images
+paths:
+  /api/products:
+    get:
+      tags: [Catalog]
+      operationId: listProducts
+      summary: List published products
+      security: []
+      parameters:
+        - name: page
+          in: query
+          required: false
+          description: Zero-based page. Omitted defaults to 0. Duplicate values are invalid.
+          schema: { type: integer, minimum: 0, default: 0 }
+        - name: size
+          in: query
+          required: false
+          description: Page size. Omitted defaults to 20. Duplicate values are invalid.
+          schema: { type: integer, minimum: 1, maximum: 100, default: 20 }
+      responses:
+        '200':
+          description: Published products, including an empty page when none match.
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/ProductPage' }
+        '400':
+          $ref: '#/components/responses/BadRequest'
+  /api/products/{id}:
+    get:
+      tags: [Catalog]
+      operationId: getProduct
+      summary: Get one published product
+      security: []
+      parameters:
+        - $ref: '#/components/parameters/ProductId'
+      responses:
+        '200':
+          description: Product detail.
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/ProductDetail' }
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '404':
+          $ref: '#/components/responses/NotFound'
+  /api/products/{id}/images:
+    post:
+      tags: [Product images]
+      operationId: attachProductImage
+      summary: Attach an owned completed image to a product (ADMIN only)
+      description: >-
+        Upload through POST /api/image-uploads, PUT the bytes to its signed URL,
+        then POST /api/image-uploads/{imageId}/complete before attaching.
+        The authenticated administrator must own the completed image. Product
+        validation enforces JPEG/PNG/WebP, at most 10 MiB, one frame, valid
+        dimensions and bounded decoding. A verified product copy and local
+        checkpoint are saved before gallery commit. Maximum ten images, unique
+        content/order and exactly one primary image are enforced under a product
+        row lock. An identical attachment retry returns 200 with the same image;
+        conflicting explicit metadata returns 409. Shared source media is retained.
+      security:
+        - bearerAuth: []
+      parameters:
+        - $ref: '#/components/parameters/ProductId'
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: { $ref: '#/components/schemas/AttachProductImageRequest' }
+      responses:
+        '201':
+          description: Image attached.
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/AttachedProductImage' }
+        '200':
+          description: Existing attachment returned for an identical retry.
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/AttachedProductImage' }
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '403':
+          $ref: '#/components/responses/Forbidden'
+        '404':
+          $ref: '#/components/responses/NotFound'
+        '409':
+          $ref: '#/components/responses/Conflict'
+        '422':
+          $ref: '#/components/responses/InvalidImage'
+        '503':
+          $ref: '#/components/responses/StorageUnavailable'
+
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+      description: Verified JWT with current database role checks.
+  parameters:
+    ProductId:
+      name: id
+      in: path
+      required: true
+      description: Canonical hyphenated UUID; unknown products return 404, and reads also hide unpublished products.
+      schema: { $ref: '#/components/schemas/Uuid' }
+  responses:
+    BadRequest:
+      description: Invalid parameter, malformed UUID, duplicate query parameter, or invalid JSON/metadata.
+      content:
+        application/problem+json:
+          schema: { $ref: '#/components/schemas/Problem' }
+    Unauthorized:
+      description: No valid authenticated principal.
+      content:
+        application/problem+json:
+          schema: { $ref: '#/components/schemas/Problem' }
+    Forbidden:
+      description: Authenticated caller does not have the ADMIN role.
+      content:
+        application/problem+json:
+          schema: { $ref: '#/components/schemas/Problem' }
+    NotFound:
+      description: Product absent or hidden on reads, or source image absent/not owned by the caller.
+      content:
+        application/problem+json:
+          schema: { $ref: '#/components/schemas/Problem' }
+    Conflict:
+      description: Source upload not completed, full gallery, duplicate content, occupied order, or conflicting attachment metadata.
+      content:
+        application/problem+json:
+          schema: { $ref: '#/components/schemas/Problem' }
+    InvalidImage:
+      description: Image bytes fail product content/size/dimension validation.
+      content:
+        application/problem+json:
+          schema: { $ref: '#/components/schemas/Problem' }
+    StorageUnavailable:
+      description: Storage operation temporarily unavailable; no gallery image published.
+      content:
+        application/problem+json:
+          schema: { $ref: '#/components/schemas/Problem' }
+  schemas:
+    Uuid:
+      type: string
+      format: uuid
+      pattern: '^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$'
+    CategorySummary:
+      type: object
+      additionalProperties: false
+      required: [id, name]
+      properties:
+        id: { $ref: '#/components/schemas/Uuid' }
+        name: { type: string, minLength: 1 }
+    ProductSummary:
+      type: object
+      required: [id, name, category, primaryImageUrl]
+      properties:
+        id: { $ref: '#/components/schemas/Uuid' }
+        name: { type: string, minLength: 1 }
+        category: { $ref: '#/components/schemas/CategorySummary' }
+        primaryImageUrl:
+          type: [string, 'null']
+          format: uri
+          description: Signed GET URL at most five minutes, or null if no image.
+    ProductPage:
+      type: object
+      additionalProperties: false
+      required: [items, page, size, totalItems, totalPages]
+      properties:
+        items:
+          type: array
+          items: { $ref: '#/components/schemas/ProductSummary' }
+        page: { type: integer, minimum: 0 }
+        size: { type: integer, minimum: 1, maximum: 100 }
+        totalItems: { type: integer, minimum: 0, format: int64 }
+        totalPages: { type: integer, minimum: 0 }
+    SellingPrice:
+      type: object
+      additionalProperties: false
+      required: [amount, currency]
+      properties:
+        amount:
+          type: integer
+          description: Exact whole đồng; no fractional rounding or business minimum is imposed.
+        currency: { type: string, const: VND }
+    BrandSummary:
+      type: object
+      additionalProperties: false
+      required: [id, code, name]
+      properties:
+        id: { $ref: '#/components/schemas/Uuid' }
+        code: { type: string, pattern: '^[a-z0-9]+(-[a-z0-9]+)*$' }
+        name: { type: string, minLength: 1 }
+    TechnicalSpecifications:
+      type: object
+      additionalProperties: false
+      required: [schema_version, values]
+      description: Stored JSONB document, returned without value transformations; empty values means no known specifications.
+      properties:
+        schema_version: { type: integer, const: 1 }
+        values:
+          type: object
+          additionalProperties: true
+          description: Canonical specification keys with their original JSON values, including typed quantities.
+    VariantSummary:
+      type: object
+      additionalProperties: false
+      required: [id, sku, options, sellingPrice, technicalSpecifications]
+      properties:
+        id: { $ref: '#/components/schemas/Uuid' }
+        sku: { type: string, minLength: 1 }
+        options:
+          type: object
+          additionalProperties: { type: string, minLength: 1 }
+          description: Flat map; empty only for a product with one variant.
+        sellingPrice: { $ref: '#/components/schemas/SellingPrice' }
+        technicalSpecifications: { $ref: '#/components/schemas/TechnicalSpecifications' }
+    ProductImageSummary:
+      type: object
+      additionalProperties: false
+      required: [id, url, altText, width, height, displayOrder, isPrimary]
+      properties:
+        id: { $ref: '#/components/schemas/Uuid' }
+        url: { type: string, format: uri, description: Private-object signed GET URL at most five minutes. }
+        altText: { type: string, minLength: 1 }
+        width: { type: integer, minimum: 1 }
+        height: { type: integer, minimum: 1 }
+        displayOrder: { type: integer, minimum: 0 }
+        isPrimary: { type: boolean }
+    ProductDetail:
+      unevaluatedProperties: false
+      allOf:
+        - $ref: '#/components/schemas/ProductSummary'
+        - type: object
+          required: [description, brand, variants, images]
+          properties:
+            description: { type: [string, 'null'] }
+            brand:
+              oneOf:
+                - $ref: '#/components/schemas/BrandSummary'
+                - type: 'null'
+            variants:
+              type: array
+              minItems: 1
+              items: { $ref: '#/components/schemas/VariantSummary' }
+            images:
+              type: array
+              maxItems: 10
+              description: Ascending displayOrder; empty when no images.
+              items: { $ref: '#/components/schemas/ProductImageSummary' }
+    AttachProductImageRequest:
+      type: object
+      additionalProperties: false
+      required: [imageId, altText]
+      properties:
+        imageId: { $ref: '#/components/schemas/Uuid' }
+        altText: { type: string, minLength: 1, description: Nonblank. }
+        isPrimary:
+          type: boolean
+          description: Defaults to true for the first image, false thereafter. Explicit null is invalid.
+        displayOrder:
+          type: integer
+          minimum: 0
+          description: Defaults to the position after the last image. Explicit null is invalid.
+    AttachedProductImage:
+      type: object
+      additionalProperties: false
+      required: [imageId, productId, altText, width, height, displayOrder, isPrimary]
+      properties:
+        imageId: { $ref: '#/components/schemas/Uuid' }
+        productId: { $ref: '#/components/schemas/Uuid' }
+        altText: { type: string, minLength: 1 }
+        width: { type: integer, minimum: 1 }
+        height: { type: integer, minimum: 1 }
+        displayOrder: { type: integer, minimum: 0 }
+        isPrimary: { type: boolean }
+    Problem:
+      type: object
+      description: Spring ProblemDetail / RFC 9457; no internal SQL, object key, or token details.
+      required: [type, title, status, detail]
+      properties:
+        type: { type: string, format: uri-reference }
+        title: { type: string }
+        status: { type: integer }
+        detail: { type: string }
+        instance: { type: string, format: uri-reference }

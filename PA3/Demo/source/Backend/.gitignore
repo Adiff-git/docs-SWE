@@ -1,0 +1,39 @@
+# Generated Java/build and local environment files
+**/target/
+*.class
+*.jar
+*.log
+.env
+.env.*
+!.env.example
+.wishlist-venv/
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
+.idea/
+.vscode/
+# Local documentation and database design artifacts.
+/docs/
+/Database-Design/
+
+# Keep Docker runtime scripts: compose.dev.yaml mounts them into LocalStack.
+# Only its documentation is excluded.
+/docker/**/README.md
+
+# Local media fixture notes.
+/demo/src/test/resources/media/README.md
+
+# Private runtime credentials and backups
+/.private/
+/tools/catalog-import/output/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+coverage/
+.coverage
+htmlcov/
