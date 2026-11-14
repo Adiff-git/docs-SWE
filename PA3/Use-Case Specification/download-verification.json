@@ -1,0 +1,786 @@
+[
+  {
+    "FG": "FG-01",
+    "UC": "002",
+    "Format": ".pdf",
+    "Bytes": 593416,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-01 -- Authentication\\FG-01 -- 002 -- Login.pdf"
+  },
+  {
+    "FG": "FG-01",
+    "UC": "002",
+    "Format": ".md",
+    "Bytes": 121473,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-01 -- Authentication\\FG-01 -- 002 -- Login.md"
+  },
+  {
+    "FG": "FG-01",
+    "UC": "001",
+    "Format": ".pdf",
+    "Bytes": 555647,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-01 -- Authentication\\FG-01 -- 001 -- Register Account.pdf"
+  },
+  {
+    "FG": "FG-01",
+    "UC": "001",
+    "Format": ".md",
+    "Bytes": 95340,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-01 -- Authentication\\FG-01 -- 001 -- Register Account.md"
+  },
+  {
+    "FG": "FG-01",
+    "UC": "003",
+    "Format": ".pdf",
+    "Bytes": 695817,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-01 -- Authentication\\FG-01 -- 003 -- Logout.pdf"
+  },
+  {
+    "FG": "FG-01",
+    "UC": "003",
+    "Format": ".md",
+    "Bytes": 121734,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-01 -- Authentication\\FG-01 -- 003 -- Logout.md"
+  },
+  {
+    "FG": "FG-01",
+    "UC": "005",
+    "Format": ".pdf",
+    "Bytes": 724675,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-01 -- Authentication\\FG-01 -- 005 -- Reset Password.pdf"
+  },
+  {
+    "FG": "FG-01",
+    "UC": "005",
+    "Format": ".md",
+    "Bytes": 121954,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-01 -- Authentication\\FG-01 -- 005 -- Reset Password.md"
+  },
+  {
+    "FG": "FG-01",
+    "UC": "007",
+    "Format": ".pdf",
+    "Bytes": 414847,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-01 -- Authentication\\FG-01 -- 007 -- Login with Google.pdf"
+  },
+  {
+    "FG": "FG-01",
+    "UC": "007",
+    "Format": ".md",
+    "Bytes": 65740,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-01 -- Authentication\\FG-01 -- 007 -- Login with Google.md"
+  },
+  {
+    "FG": "FG-01",
+    "UC": "004",
+    "Format": ".pdf",
+    "Bytes": 288019,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-01 -- Authentication\\FG-01 -- 004 -- Verify Email.pdf"
+  },
+  {
+    "FG": "FG-01",
+    "UC": "004",
+    "Format": ".md",
+    "Bytes": 31253,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-01 -- Authentication\\FG-01 -- 004 -- Verify Email.md"
+  },
+  {
+    "FG": "FG-01",
+    "UC": "006",
+    "Format": ".pdf",
+    "Bytes": 286465,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-01 -- Authentication\\FG-01 -- 006 -- Change Password.pdf"
+  },
+  {
+    "FG": "FG-01",
+    "UC": "006",
+    "Format": ".md",
+    "Bytes": 32554,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-01 -- Authentication\\FG-01 -- 006 -- Change Password.md"
+  },
+  {
+    "FG": "FG-02",
+    "UC": "010",
+    "Format": ".pdf",
+    "Bytes": 1215990,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-02 -- Profile Management\\FG-02 -- 010 -- Manage Shipping Addresses.pdf"
+  },
+  {
+    "FG": "FG-02",
+    "UC": "010",
+    "Format": ".md",
+    "Bytes": 247597,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-02 -- Profile Management\\FG-02 -- 010 -- Manage Shipping Addresses.md"
+  },
+  {
+    "FG": "FG-02",
+    "UC": "009",
+    "Format": ".pdf",
+    "Bytes": 758339,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-02 -- Profile Management\\FG-02 -- 009 -- Manage Profile.pdf"
+  },
+  {
+    "FG": "FG-02",
+    "UC": "009",
+    "Format": ".md",
+    "Bytes": 128963,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-02 -- Profile Management\\FG-02 -- 009 -- Manage Profile.md"
+  },
+  {
+    "FG": "FG-02",
+    "UC": "011",
+    "Format": ".pdf",
+    "Bytes": 155553,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-02 -- Profile Management\\FG-02 -- 011 -- Delete Account.pdf"
+  },
+  {
+    "FG": "FG-02",
+    "UC": "011",
+    "Format": ".md",
+    "Bytes": 4902,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-02 -- Profile Management\\FG-02 -- 011 -- Delete Account.md"
+  },
+  {
+    "FG": "FG-03",
+    "UC": "022",
+    "Format": ".pdf",
+    "Bytes": 162817,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-03 -- Search And Browse\\FG-03 -- 022 -- Manage Wishlist.pdf"
+  },
+  {
+    "FG": "FG-03",
+    "UC": "022",
+    "Format": ".md",
+    "Bytes": 6079,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-03 -- Search And Browse\\FG-03 -- 022 -- Manage Wishlist.md"
+  },
+  {
+    "FG": "FG-03",
+    "UC": "019",
+    "Format": ".pdf",
+    "Bytes": 710402,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-03 -- Search And Browse\\FG-03 -- 019 -- View Homepage Recommendations.pdf"
+  },
+  {
+    "FG": "FG-03",
+    "UC": "019",
+    "Format": ".md",
+    "Bytes": 129405,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-03 -- Search And Browse\\FG-03 -- 019 -- View Homepage Recommendations.md"
+  },
+  {
+    "FG": "FG-03",
+    "UC": "015",
+    "Format": ".pdf",
+    "Bytes": 1033108,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-03 -- Search And Browse\\FG-03 -- 015 -- View Product Details.pdf"
+  },
+  {
+    "FG": "FG-03",
+    "UC": "015",
+    "Format": ".md",
+    "Bytes": 222391,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-03 -- Search And Browse\\FG-03 -- 015 -- View Product Details.md"
+  },
+  {
+    "FG": "FG-03",
+    "UC": "020",
+    "Format": ".pdf",
+    "Bytes": 167194,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-03 -- Search And Browse\\FG-03 -- 020 -- View Personalized Recommendations.pdf"
+  },
+  {
+    "FG": "FG-03",
+    "UC": "020",
+    "Format": ".md",
+    "Bytes": 7466,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-03 -- Search And Browse\\FG-03 -- 020 -- View Personalized Recommendations.md"
+  },
+  {
+    "FG": "FG-03",
+    "UC": "014",
+    "Format": ".pdf",
+    "Bytes": 967198,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-03 -- Search And Browse\\FG-03 -- 014 -- Filter & Sort Products.pdf"
+  },
+  {
+    "FG": "FG-03",
+    "UC": "014",
+    "Format": ".md",
+    "Bytes": 178829,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-03 -- Search And Browse\\FG-03 -- 014 -- Filter & Sort Products.md"
+  },
+  {
+    "FG": "FG-03",
+    "UC": "016",
+    "Format": ".pdf",
+    "Bytes": 165835,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-03 -- Search And Browse\\FG-03 -- 016 -- Compare Products.pdf"
+  },
+  {
+    "FG": "FG-03",
+    "UC": "016",
+    "Format": ".md",
+    "Bytes": 6763,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-03 -- Search And Browse\\FG-03 -- 016 -- Compare Products.md"
+  },
+  {
+    "FG": "FG-03",
+    "UC": "013",
+    "Format": ".pdf",
+    "Bytes": 927456,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-03 -- Search And Browse\\FG-03 -- 013 -- Search Products.pdf"
+  },
+  {
+    "FG": "FG-03",
+    "UC": "013",
+    "Format": ".md",
+    "Bytes": 153555,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-03 -- Search And Browse\\FG-03 -- 013 -- Search Products.md"
+  },
+  {
+    "FG": "FG-03",
+    "UC": "012",
+    "Format": ".pdf",
+    "Bytes": 1623378,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-03 -- Search And Browse\\FG-03 -- 012 -- Browse Product Catalog.pdf"
+  },
+  {
+    "FG": "FG-03",
+    "UC": "012",
+    "Format": ".md",
+    "Bytes": 347711,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-03 -- Search And Browse\\FG-03 -- 012 -- Browse Product Catalog.md"
+  },
+  {
+    "FG": "FG-03",
+    "UC": "017",
+    "Format": ".pdf",
+    "Bytes": 1257612,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-03 -- Search And Browse\\FG-03 -- 017 -- View Product Promotions.pdf"
+  },
+  {
+    "FG": "FG-03",
+    "UC": "017",
+    "Format": ".md",
+    "Bytes": 257176,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-03 -- Search And Browse\\FG-03 -- 017 -- View Product Promotions.md"
+  },
+  {
+    "FG": "FG-03",
+    "UC": "021",
+    "Format": ".pdf",
+    "Bytes": 164430,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-03 -- Search And Browse\\FG-03 -- 021 -- Manage Recommendation Preferences.pdf"
+  },
+  {
+    "FG": "FG-03",
+    "UC": "021",
+    "Format": ".md",
+    "Bytes": 6685,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-03 -- Search And Browse\\FG-03 -- 021 -- Manage Recommendation Preferences.md"
+  },
+  {
+    "FG": "FG-03",
+    "UC": "018",
+    "Format": ".pdf",
+    "Bytes": 161501,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-03 -- Search And Browse\\FG-03 -- 018 -- View Recently Viewed Products.pdf"
+  },
+  {
+    "FG": "FG-03",
+    "UC": "018",
+    "Format": ".md",
+    "Bytes": 6270,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-03 -- Search And Browse\\FG-03 -- 018 -- View Recently Viewed Products.md"
+  },
+  {
+    "FG": "FG-04",
+    "UC": "023",
+    "Format": ".pdf",
+    "Bytes": 222328,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-04 -- Shopping Cart\\FG-04 -- 023 -- Manage Shopping Cart.pdf"
+  },
+  {
+    "FG": "FG-04",
+    "UC": "023",
+    "Format": ".md",
+    "Bytes": 7330,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-04 -- Shopping Cart\\FG-04 -- 023 -- Manage Shopping Cart.md"
+  },
+  {
+    "FG": "FG-05",
+    "UC": "027",
+    "Format": ".pdf",
+    "Bytes": 636718,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-05 -- Checkout & Payment\\FG-05 -- 027 -- Make Payment.pdf"
+  },
+  {
+    "FG": "FG-05",
+    "UC": "027",
+    "Format": ".md",
+    "Bytes": 106994,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-05 -- Checkout & Payment\\FG-05 -- 027 -- Make Payment.md"
+  },
+  {
+    "FG": "FG-05",
+    "UC": "025",
+    "Format": ".pdf",
+    "Bytes": 964488,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-05 -- Checkout & Payment\\FG-05 -- 025 -- Checkout.pdf"
+  },
+  {
+    "FG": "FG-05",
+    "UC": "025",
+    "Format": ".md",
+    "Bytes": 183937,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-05 -- Checkout & Payment\\FG-05 -- 025 -- Checkout.md"
+  },
+  {
+    "FG": "FG-05",
+    "UC": "026",
+    "Format": ".pdf",
+    "Bytes": 695165,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-05 -- Checkout & Payment\\FG-05 -- 026 -- Place Order.pdf"
+  },
+  {
+    "FG": "FG-05",
+    "UC": "026",
+    "Format": ".md",
+    "Bytes": 146600,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-05 -- Checkout & Payment\\FG-05 -- 026 -- Place Order.md"
+  },
+  {
+    "FG": "FG-05",
+    "UC": "028",
+    "Format": ".pdf",
+    "Bytes": 512363,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-05 -- Checkout & Payment\\FG-05 -- 028 -- View Payment Status.pdf"
+  },
+  {
+    "FG": "FG-05",
+    "UC": "028",
+    "Format": ".md",
+    "Bytes": 79963,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-05 -- Checkout & Payment\\FG-05 -- 028 -- View Payment Status.md"
+  },
+  {
+    "FG": "FG-06",
+    "UC": "038",
+    "Format": ".pdf",
+    "Bytes": 410130,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-06 -- Product Management\\FG-06 -- 038 -- Import Product Data.pdf"
+  },
+  {
+    "FG": "FG-06",
+    "UC": "038",
+    "Format": ".md",
+    "Bytes": 125068,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-06 -- Product Management\\FG-06 -- 038 -- Import Product Data.md"
+  },
+  {
+    "FG": "FG-06",
+    "UC": "031",
+    "Format": ".pdf",
+    "Bytes": 442140,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-06 -- Product Management\\FG-06 -- 031 -- Manage Products.pdf"
+  },
+  {
+    "FG": "FG-06",
+    "UC": "031",
+    "Format": ".md",
+    "Bytes": 139183,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-06 -- Product Management\\FG-06 -- 031 -- Manage Products.md"
+  },
+  {
+    "FG": "FG-06",
+    "UC": "033",
+    "Format": ".pdf",
+    "Bytes": 378142,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-06 -- Product Management\\FG-06 -- 033 -- Manage Product Brands.pdf"
+  },
+  {
+    "FG": "FG-06",
+    "UC": "033",
+    "Format": ".md",
+    "Bytes": 78812,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-06 -- Product Management\\FG-06 -- 033 -- Manage Product Brands.md"
+  },
+  {
+    "FG": "FG-06",
+    "UC": "037",
+    "Format": ".pdf",
+    "Bytes": 455286,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-06 -- Product Management\\FG-06 -- 037 -- Manage Product Stock.pdf"
+  },
+  {
+    "FG": "FG-06",
+    "UC": "037",
+    "Format": ".md",
+    "Bytes": 102767,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-06 -- Product Management\\FG-06 -- 037 -- Manage Product Stock.md"
+  },
+  {
+    "FG": "FG-06",
+    "UC": "035",
+    "Format": ".pdf",
+    "Bytes": 446740,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-06 -- Product Management\\FG-06 -- 035 -- Manage Product Images.pdf"
+  },
+  {
+    "FG": "FG-06",
+    "UC": "035",
+    "Format": ".md",
+    "Bytes": 103945,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-06 -- Product Management\\FG-06 -- 035 -- Manage Product Images.md"
+  },
+  {
+    "FG": "FG-06",
+    "UC": "030",
+    "Format": ".pdf",
+    "Bytes": 430575,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-06 -- Product Management\\FG-06 -- 030 -- View Product Sales Overview.pdf"
+  },
+  {
+    "FG": "FG-06",
+    "UC": "030",
+    "Format": ".md",
+    "Bytes": 97615,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-06 -- Product Management\\FG-06 -- 030 -- View Product Sales Overview.md"
+  },
+  {
+    "FG": "FG-06",
+    "UC": "036",
+    "Format": ".pdf",
+    "Bytes": 447047,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-06 -- Product Management\\FG-06 -- 036 -- Manage Product Specifications.pdf"
+  },
+  {
+    "FG": "FG-06",
+    "UC": "036",
+    "Format": ".md",
+    "Bytes": 103915,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-06 -- Product Management\\FG-06 -- 036 -- Manage Product Specifications.md"
+  },
+  {
+    "FG": "FG-06",
+    "UC": "034",
+    "Format": ".pdf",
+    "Bytes": 447831,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-06 -- Product Management\\FG-06 -- 034 -- Manage Product Variants & Prices.pdf"
+  },
+  {
+    "FG": "FG-06",
+    "UC": "034",
+    "Format": ".md",
+    "Bytes": 103941,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-06 -- Product Management\\FG-06 -- 034 -- Manage Product Variants & Prices.md"
+  },
+  {
+    "FG": "FG-06",
+    "UC": "032",
+    "Format": ".pdf",
+    "Bytes": 386190,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-06 -- Product Management\\FG-06 -- 032 -- Manage Product Categories.pdf"
+  },
+  {
+    "FG": "FG-06",
+    "UC": "032",
+    "Format": ".md",
+    "Bytes": 82007,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-06 -- Product Management\\FG-06 -- 032 -- Manage Product Categories.md"
+  },
+  {
+    "FG": "FG-07",
+    "UC": "041",
+    "Format": ".pdf",
+    "Bytes": 311670,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-07 -- Order Management\\FG-07 -- 041 -- Cancel Order.pdf"
+  },
+  {
+    "FG": "FG-07",
+    "UC": "041",
+    "Format": ".md",
+    "Bytes": 52373,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-07 -- Order Management\\FG-07 -- 041 -- Cancel Order.md"
+  },
+  {
+    "FG": "FG-07",
+    "UC": "043",
+    "Format": ".pdf",
+    "Bytes": 508754,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-07 -- Order Management\\FG-07 -- 043 -- Request Refund.pdf"
+  },
+  {
+    "FG": "FG-07",
+    "UC": "043",
+    "Format": ".md",
+    "Bytes": 78505,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-07 -- Order Management\\FG-07 -- 043 -- Request Refund.md"
+  },
+  {
+    "FG": "FG-07",
+    "UC": "044",
+    "Format": ".pdf",
+    "Bytes": 423348,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-07 -- Order Management\\FG-07 -- 044 -- Process Customer Orders.pdf"
+  },
+  {
+    "FG": "FG-07",
+    "UC": "044",
+    "Format": ".md",
+    "Bytes": 124184,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-07 -- Order Management\\FG-07 -- 044 -- Process Customer Orders.md"
+  },
+  {
+    "FG": "FG-07",
+    "UC": "042",
+    "Format": ".pdf",
+    "Bytes": 519508,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-07 -- Order Management\\FG-07 -- 042 -- Request Return.pdf"
+  },
+  {
+    "FG": "FG-07",
+    "UC": "042",
+    "Format": ".md",
+    "Bytes": 80482,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-07 -- Order Management\\FG-07 -- 042 -- Request Return.md"
+  },
+  {
+    "FG": "FG-07",
+    "UC": "039",
+    "Format": ".pdf",
+    "Bytes": 398591,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-07 -- Order Management\\FG-07 -- 039 -- View Order History & Details.pdf"
+  },
+  {
+    "FG": "FG-07",
+    "UC": "039",
+    "Format": ".md",
+    "Bytes": 72780,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-07 -- Order Management\\FG-07 -- 039 -- View Order History & Details.md"
+  },
+  {
+    "FG": "FG-07",
+    "UC": "040",
+    "Format": ".pdf",
+    "Bytes": 422667,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-07 -- Order Management\\FG-07 -- 040 -- Track Order Status.pdf"
+  },
+  {
+    "FG": "FG-07",
+    "UC": "040",
+    "Format": ".md",
+    "Bytes": 84561,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-07 -- Order Management\\FG-07 -- 040 -- Track Order Status.md"
+  },
+  {
+    "FG": "FG-08",
+    "UC": "046",
+    "Format": ".pdf",
+    "Bytes": 456739,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-08 -- Review & Rating\\FG-08 -- 046 -- Manage Product Reviews & Ratings.pdf"
+  },
+  {
+    "FG": "FG-08",
+    "UC": "046",
+    "Format": ".md",
+    "Bytes": 98780,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-08 -- Review & Rating\\FG-08 -- 046 -- Manage Product Reviews & Ratings.md"
+  },
+  {
+    "FG": "FG-08",
+    "UC": "045",
+    "Format": ".pdf",
+    "Bytes": 395978,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-08 -- Review & Rating\\FG-08 -- 045 -- View Product Reviews & Ratings.pdf"
+  },
+  {
+    "FG": "FG-08",
+    "UC": "045",
+    "Format": ".md",
+    "Bytes": 55261,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-08 -- Review & Rating\\FG-08 -- 045 -- View Product Reviews & Ratings.md"
+  },
+  {
+    "FG": "FG-09",
+    "UC": "048",
+    "Format": ".pdf",
+    "Bytes": 884720,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-09 -- Store Administration\\FG-09 -- 048 -- Manage Customer Accounts.pdf"
+  },
+  {
+    "FG": "FG-09",
+    "UC": "048",
+    "Format": ".md",
+    "Bytes": 178398,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-09 -- Store Administration\\FG-09 -- 048 -- Manage Customer Accounts.md"
+  },
+  {
+    "FG": "FG-09",
+    "UC": "050",
+    "Format": ".pdf",
+    "Bytes": 550751,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-09 -- Store Administration\\FG-09 -- 050 -- Moderate Product Reviews.pdf"
+  },
+  {
+    "FG": "FG-09",
+    "UC": "050",
+    "Format": ".md",
+    "Bytes": 75263,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-09 -- Store Administration\\FG-09 -- 050 -- Moderate Product Reviews.md"
+  },
+  {
+    "FG": "FG-09",
+    "UC": "049",
+    "Format": ".pdf",
+    "Bytes": 713755,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-09 -- Store Administration\\FG-09 -- 049 -- Manage Promotions & Vouchers.pdf"
+  },
+  {
+    "FG": "FG-09",
+    "UC": "049",
+    "Format": ".md",
+    "Bytes": 104259,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-09 -- Store Administration\\FG-09 -- 049 -- Manage Promotions & Vouchers.md"
+  },
+  {
+    "FG": "FG-09",
+    "UC": "047",
+    "Format": ".pdf",
+    "Bytes": 743316,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-09 -- Store Administration\\FG-09 -- 047 -- Manage Store Settings & Homepage Content.pdf"
+  },
+  {
+    "FG": "FG-09",
+    "UC": "047",
+    "Format": ".md",
+    "Bytes": 150045,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-09 -- Store Administration\\FG-09 -- 047 -- Manage Store Settings & Homepage Content.md"
+  },
+  {
+    "FG": "FG-09",
+    "UC": "051",
+    "Format": ".pdf",
+    "Bytes": 497359,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-09 -- Store Administration\\FG-09 -- 051 -- View Sales Statistics.pdf"
+  },
+  {
+    "FG": "FG-09",
+    "UC": "051",
+    "Format": ".md",
+    "Bytes": 67608,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-09 -- Store Administration\\FG-09 -- 051 -- View Sales Statistics.md"
+  },
+  {
+    "FG": "FG-10",
+    "UC": "052",
+    "Format": ".pdf",
+    "Bytes": 355362,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-10 -- AI Chatbot & Shopping Automation\\FG-10 -- 052 -- Chat with AI Assistant.pdf"
+  },
+  {
+    "FG": "FG-10",
+    "UC": "052",
+    "Format": ".md",
+    "Bytes": 85971,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-10 -- AI Chatbot & Shopping Automation\\FG-10 -- 052 -- Chat with AI Assistant.md"
+  },
+  {
+    "FG": "FG-10",
+    "UC": "055",
+    "Format": ".pdf",
+    "Bytes": 352824,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-10 -- AI Chatbot & Shopping Automation\\FG-10 -- 055 -- Compare Products Using AI.pdf"
+  },
+  {
+    "FG": "FG-10",
+    "UC": "055",
+    "Format": ".md",
+    "Bytes": 84315,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-10 -- AI Chatbot & Shopping Automation\\FG-10 -- 055 -- Compare Products Using AI.md"
+  },
+  {
+    "FG": "FG-10",
+    "UC": "057",
+    "Format": ".pdf",
+    "Bytes": 354355,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-10 -- AI Chatbot & Shopping Automation\\FG-10 -- 057 -- Prepare Checkout via AI.pdf"
+  },
+  {
+    "FG": "FG-10",
+    "UC": "057",
+    "Format": ".md",
+    "Bytes": 85736,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-10 -- AI Chatbot & Shopping Automation\\FG-10 -- 057 -- Prepare Checkout via AI.md"
+  },
+  {
+    "FG": "FG-10",
+    "UC": "058",
+    "Format": ".pdf",
+    "Bytes": 352968,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-10 -- AI Chatbot & Shopping Automation\\FG-10 -- 058 -- Ask AI About Order Status.pdf"
+  },
+  {
+    "FG": "FG-10",
+    "UC": "058",
+    "Format": ".md",
+    "Bytes": 84072,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-10 -- AI Chatbot & Shopping Automation\\FG-10 -- 058 -- Ask AI About Order Status.md"
+  },
+  {
+    "FG": "FG-10",
+    "UC": "056",
+    "Format": ".pdf",
+    "Bytes": 355959,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-10 -- AI Chatbot & Shopping Automation\\FG-10 -- 056 -- Manage Shopping Cart via AI.pdf"
+  },
+  {
+    "FG": "FG-10",
+    "UC": "056",
+    "Format": ".md",
+    "Bytes": 85555,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-10 -- AI Chatbot & Shopping Automation\\FG-10 -- 056 -- Manage Shopping Cart via AI.md"
+  },
+  {
+    "FG": "FG-10",
+    "UC": "053",
+    "Format": ".pdf",
+    "Bytes": 354051,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-10 -- AI Chatbot & Shopping Automation\\FG-10 -- 053 -- Search Products Using Natural Language.pdf"
+  },
+  {
+    "FG": "FG-10",
+    "UC": "053",
+    "Format": ".md",
+    "Bytes": 85590,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-10 -- AI Chatbot & Shopping Automation\\FG-10 -- 053 -- Search Products Using Natural Language.md"
+  },
+  {
+    "FG": "FG-10",
+    "UC": "059",
+    "Format": ".pdf",
+    "Bytes": 349403,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-10 -- AI Chatbot & Shopping Automation\\FG-10 -- 059 -- Manage AI Conversation History.pdf"
+  },
+  {
+    "FG": "FG-10",
+    "UC": "059",
+    "Format": ".md",
+    "Bytes": 82790,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-10 -- AI Chatbot & Shopping Automation\\FG-10 -- 059 -- Manage AI Conversation History.md"
+  },
+  {
+    "FG": "FG-10",
+    "UC": "054",
+    "Format": ".pdf",
+    "Bytes": 354463,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-10 -- AI Chatbot & Shopping Automation\\FG-10 -- 054 -- Get AI Product Recommendations.pdf"
+  },
+  {
+    "FG": "FG-10",
+    "UC": "054",
+    "Format": ".md",
+    "Bytes": 85152,
+    "Path": "C:\\Users\\TrinhThanh\\Downloads\\docs-SWE\\PA3\\Use-Case Specification\\FG-10 -- AI Chatbot & Shopping Automation\\FG-10 -- 054 -- Get AI Product Recommendations.md"
+  }
+]
