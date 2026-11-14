@@ -15,6 +15,7 @@ Chọn tên tài liệu hoặc định dạng để mở file. Các liên kết 
 | Changes | [PDF](Changes/Changes.pdf) · [Markdown](Changes/Changes.md) |
 | Weekly Reports | [PDF](Reports/WeeklyReports.pdf) · [Markdown](Reports/WeeklyReports.md) |
 | AI Usage Report | [PDF](Reports/AIUsageReport.pdf) · [Markdown](Reports/AIUsageReport.md) |
+| Use-Case Model | [PDF](Use-Case%20Models/Use%20Case%20Model.pdf) · [Markdown](Use-Case%20Models/Use%20Case%20Model.md) |
 | Use-Case Specifications | [Danh sách theo 10 nhóm chức năng](#use-case-specifications) |
 | Git logs | [Backend, Frontend và AI](#git-logs) |
 | Demo và mã nguồn | [Video và source code](#demo-va-ma-nguon) |
@@ -1459,6 +1460,16 @@ Mở từng phần bên dưới để xem tất cả thư mục và file. Bấm 
 - [AIUsageReport.pdf](Reports/AIUsageReport.pdf)
 - [WeeklyReports.md](Reports/WeeklyReports.md)
 - [WeeklyReports.pdf](Reports/WeeklyReports.pdf)
+
+</details>
+
+<details>
+<summary>Use-Case Models — 2 file</summary>
+
+[Mở thư mục Use-Case Models](Use-Case%20Models)
+
+- [Use Case Model.md](Use-Case%20Models/Use%20Case%20Model.md)
+- [Use Case Model.pdf](Use-Case%20Models/Use%20Case%20Model.pdf)
 
 </details>
 
